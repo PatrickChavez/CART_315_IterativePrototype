@@ -25,7 +25,12 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene(0);
+            // Code from JeanLuc
+            // get the current scene name 
+            string sceneName = SceneManager.GetActiveScene().name;
+
+            // load the same scene
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
     }
 }
