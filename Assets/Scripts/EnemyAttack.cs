@@ -12,13 +12,13 @@ public class EnemyAttack : MonoBehaviour
     public float enemyDamage = 1f;
     // Referencing the PlayerHealth script
     public GameObject playerHealthScript;
-    //private AudioSource attackSFX;
+    private AudioSource attackSFX;
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.gameObject == player)
         {
-            //attackSFX.Play();
+            attackSFX.Play();
             playerHealthScript.GetComponent<PlayerHealth>().currentHealth = playerHealthScript.GetComponent<PlayerHealth>().currentHealth - enemyDamage;
             
         }
@@ -27,7 +27,7 @@ public class EnemyAttack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //attackSFX = GetComponent<AudioSource>();
+        attackSFX = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
