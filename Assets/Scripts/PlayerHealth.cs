@@ -8,9 +8,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public GameObject player;
     public Text textComponent;
-    public float currentHealth;
-    // Referencing the EnemyAttack script
-    GameObject enemyAttackScript;
+    public float currentHealth = 100f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +19,9 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        // Constraining currenthealth
+        currentHealth = Mathf.Clamp(currentHealth, 0, 100);
+
         textComponent.text = "Health: " + currentHealth.ToString();
 
         if (currentHealth <= 0)
