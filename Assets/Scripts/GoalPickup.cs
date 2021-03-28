@@ -25,6 +25,7 @@ public class GoalPickup : MonoBehaviour
             if (score == 4)
             {
                 SceneManager.LoadScene("Crater");
+                this.transform.position = new Vector3(195f, 103f, 341f);
             }
         }
     }

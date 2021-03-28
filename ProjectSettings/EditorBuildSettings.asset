@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Crater.unity
     guid: 99416aa17f3084b55b58fe46d5a4643a
+  - enabled: 1
+    path: Assets/Scenes/Ambush.unity
+    guid: 304dcbdb4b0654bd691a612787e081e0
   m_configObjects: {}

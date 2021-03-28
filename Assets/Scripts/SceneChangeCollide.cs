@@ -6,16 +6,27 @@ using UnityEngine.SceneManagement;
 public class SceneChangeCollide : MonoBehaviour
 {
     public string chosenScene;
-    public GameObject player;
-    public Vector3 playerPosition = new Vector3(0, 2.0f, 0);
+    //public GameObject player;
+    public string scenetag;
+    public Vector3 playerPosition = new Vector3(195f, 103f, 341f);
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.collider.gameObject == player)
+    //    {
+    //        Debug.Log("Scene change!");
+    //        SceneManager.LoadScene(chosenScene);
+    //        player.transform.position = playerPosition;
+    //    }
+    //}
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.gameObject == player)
+        if (collision.collider.gameObject.CompareTag(scenetag))
         {
             Debug.Log("Scene change!");
             SceneManager.LoadScene(chosenScene);
-            player.transform.position = playerPosition;
+            collision.collider.gameObject.transform.position = new Vector3(195f, 103f, 341f);
         }
     }
 
@@ -26,7 +37,7 @@ public class SceneChangeCollide : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         
     }

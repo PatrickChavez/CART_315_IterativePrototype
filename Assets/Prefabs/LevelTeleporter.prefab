@@ -206,5 +206,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chosenScene: Crater
-  player: {fileID: 0}
+  scenetag: playerwarp
   playerPosition: {x: 195, y: 103, z: 341}
