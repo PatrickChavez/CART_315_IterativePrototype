@@ -7,6 +7,7 @@ public class SceneChangeCollide : MonoBehaviour
 {
     public string chosenScene;
     public GameObject player;
+    public Vector3 playerPosition = new Vector3(0, 2.0f, 0);
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -14,6 +15,7 @@ public class SceneChangeCollide : MonoBehaviour
         {
             Debug.Log("Scene change!");
             SceneManager.LoadScene(chosenScene);
+            player.transform.position = playerPosition;
         }
     }
 

@@ -34,4 +34,9 @@ public class PlayerHealth : MonoBehaviour
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
     }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
 }
