@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DontDestroyScript : MonoBehaviour
 {
+    private static DontDestroyScript original;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +17,18 @@ public class DontDestroyScript : MonoBehaviour
         
     }
 
+    // Code from Hellium
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if (original !=this)
+        {
+            if (original != null)
+            {
+                Destroy(original.gameObject);
+            }
+            DontDestroyOnLoad(gameObject);
+            original = this;
+        }
+        //DontDestroyOnLoad(this.gameObject);
     }
 }
