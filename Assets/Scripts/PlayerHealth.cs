@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public GameObject player;
     public Text textComponent;
     public float currentHealth = 100f;
-    private static PlayerHealth original;
+    //private static PlayerHealth original;
 
     // Start is called before the first frame update
     void Start()
@@ -42,16 +42,16 @@ public class PlayerHealth : MonoBehaviour
     //}
 
     // Code from Hellium
-    private void Awake()
-    {
-        if (original != this)
-        {
-            if (original != null)
-            {
-                Destroy(original.gameObject);
-            }
-            DontDestroyOnLoad(gameObject);
-            original = this;
-        }
-    }
+    //private void Awake()
+    //{
+    //    if (original != this)
+    //    {
+    //        if (original != null)
+    //        {
+    //            Destroy(original.gameObject);
+    //        }
+    //        DontDestroyOnLoad(gameObject);
+    //        original = this;
+    //    }
+    //}
 }

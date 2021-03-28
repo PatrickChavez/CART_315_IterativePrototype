@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DontDestroyScript : MonoBehaviour
 {
-    private static DontDestroyScript original;
+    public static DontDestroyScript Instance;
+
+    //private static DontDestroyScript original;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,18 +20,38 @@ public class DontDestroyScript : MonoBehaviour
         
     }
 
-    // Code from Hellium
-    private void Awake()
+    ////Code from Hellium
+    //private void Awake()
+    //{
+
+    //    if (original != this)
+    //    {
+    //        if (original != null)
+    //        {
+    //            Destroy(original.gameObject);
+    //        }
+    //        DontDestroyOnLoad(gameObject);
+    //        original = this;
+    //    }
+
+    //    DontDestroyOnLoad(this.gameObject);
+
+    //}
+
+    // Code from whydoidoit
+    void Awake()
     {
-        if (original !=this)
+        if (Instance)
         {
-            if (original != null)
-            {
-                Destroy(original.gameObject);
-            }
-            DontDestroyOnLoad(gameObject);
-            original = this;
+            DestroyImmediate(gameObject);
         }
-        //DontDestroyOnLoad(this.gameObject);
+                 
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
     }
+
+
 }
