@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ambush.unity
     guid: 304dcbdb4b0654bd691a612787e081e0
+  - enabled: 1
+    path: Assets/Scenes/CLICKME.unity
+    guid: b5ed938b510904de984da64b50d754c4
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 594b00cb2e52c485f8cc4ea78ad57890
   m_configObjects: {}

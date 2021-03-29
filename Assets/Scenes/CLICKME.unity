@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 29d2bb922f79ece4c90867d92e25976e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2027149507652265108, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalScale.z
-      value: 30.481956
+      value: 34.331825
       objectReference: {fileID: 0}
     - target: {fileID: 2027149507652265108, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -167,14 +167,14 @@ PrefabInstance:
       value: '-Touch the green cubes to restore health
 
         - Stepping on the
-        yellow pads will send you to a level
+        yellow pad will send you to the overworld
 
         - Use the minimap to check
-        whether a level or enemy is nearby'
+        whether a gold cube or enemy is nearby'
       objectReference: {fileID: 0}
     - target: {fileID: 6218961205380640115, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6218961205380640115, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
@@ -210,11 +210,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.1
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.4
+      value: -18.6
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalRotation.w
@@ -273,7 +273,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5c8581aa89f2d4325b87501d1fdddcc5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5ae9ae0a5d3e546738470d85b05c95f7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
@@ -480,16 +480,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4453765895075234740, guid: 99d2e1df98af04dc9af4aa58f8057002, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453765895075234740, guid: 99d2e1df98af04dc9af4aa58f8057002, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453765895075234740, guid: 99d2e1df98af04dc9af4aa58f8057002, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.6547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453765895075234740, guid: 99d2e1df98af04dc9af4aa58f8057002, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 188.6
+      value: 189.24
       objectReference: {fileID: 0}
     - target: {fileID: 4453765895075234740, guid: 99d2e1df98af04dc9af4aa58f8057002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.6
+      value: 9.7
       objectReference: {fileID: 0}
     - target: {fileID: 4453765895075234740, guid: 99d2e1df98af04dc9af4aa58f8057002, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.8
+      value: -5.4000006
       objectReference: {fileID: 0}
     - target: {fileID: 4453765895075234740, guid: 99d2e1df98af04dc9af4aa58f8057002, type: 3}
       propertyPath: m_LocalRotation.w
@@ -873,7 +885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2027149507652265108, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalScale.y
-      value: 28.967371
+      value: 35.758484
       objectReference: {fileID: 0}
     - target: {fileID: 2027149507652265108, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalScale.z
@@ -885,11 +897,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2027149507652265108, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.3
+      value: -8.6
       objectReference: {fileID: 0}
     - target: {fileID: 2027149507652265108, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.6
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2266878294513271722, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
@@ -901,12 +913,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3244622389235452025, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_text
-      value: Collect 4 cubes scattered across the overworld and levels in order to
-        win!
+      value: '1. Collect 4 gold cubes scattered across the overworld!
+
+        2.
+        Finish the following obstacle course to win!'
       objectReference: {fileID: 0}
     - target: {fileID: 6218961205380640115, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 12
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 6218961205380640115, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
@@ -942,11 +956,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.8
+      value: 14.96
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.4
+      value: -18.6
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1744,7 +1758,7 @@ PrefabInstance:
       value: '-Enemies will take away a chunk of your health!
 
         -Touching
-        the red blocks will instantly kill you!'
+        the red wall will instantly kill you!'
       objectReference: {fileID: 0}
     - target: {fileID: 6218961205380640115, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1788,7 +1802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.4
+      value: -18.6
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2275,7 +2289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.39
+      value: -18.59
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalRotation.w
