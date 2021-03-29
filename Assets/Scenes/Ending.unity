@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 71b634fec31b38b46a30f6185273a772, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -231,7 +231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
@@ -370,104 +370,6 @@ Transform:
   m_Father: {fileID: 1902891529}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &178450858
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6025241008424123628, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_text
-      value: "-Enemy AI script by THSS Tech\n-Multiple SFX code by Statement and
-        levelzerozilch \n-Music and SFX by Maou Damashii"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241008424123628, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_margin.z
-      value: -39.057484
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009229104656, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 32.85973
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009229104656, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 75.37756
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009229104656, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 19.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009229104656, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009229104656, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 18.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331616, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_Name
-      value: CreditsBlock
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 283.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 9.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -66.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009280331617, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009340901384, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 17.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009340901384, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 7.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6025241009340901386, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
-      propertyPath: m_text
-      value: CREDITS
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2046f2a2b4f2e4f8ba69151536e976ed, type: 3}
 --- !u!1 &230224293
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,9 +651,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 098074fe62bc944029a19d08a3d75521, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0f60bdbb88efb40ccb525cd2ededb349, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.265
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -847,7 +749,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &781171576
 GameObject:
@@ -879,7 +781,7 @@ Transform:
   - {fileID: 1100567668}
   - {fileID: 230224294}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &821115500
 GameObject:
@@ -1136,7 +1038,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: deab54da13742420bbe4c4d0418a123c, type: 2}
+  - {fileID: 2100000, guid: ce63f4709c496431f9bf180a52988a31, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1257,7 +1159,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -3.5, y: -216.1, z: 0}
 --- !u!1 &1902891528
 GameObject:
@@ -1292,7 +1194,7 @@ Transform:
   - {fileID: 15627632}
   - {fileID: 165856404}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1946810001
 GameObject:

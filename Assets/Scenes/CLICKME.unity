@@ -273,9 +273,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9ebfe9747c6ff46ce976a8347819cdd2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5c8581aa89f2d4325b87501d1fdddcc5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.265
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -534,7 +534,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 306688666, guid: 4d116b1e2b5b44fe48c0c9df4ae82efb, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3015856489677989826, guid: 4d116b1e2b5b44fe48c0c9df4ae82efb, type: 3}
       propertyPath: m_Enabled
@@ -547,7 +547,7 @@ PrefabInstance:
     - target: {fileID: 6423618978965828285, guid: 4d116b1e2b5b44fe48c0c9df4ae82efb, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1225099680}
+      objectReference: {fileID: 661474104}
     - target: {fileID: 6423618978965828285, guid: 4d116b1e2b5b44fe48c0c9df4ae82efb, type: 3}
       propertyPath: MobDistanceRun
       value: 50
@@ -655,10 +655,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1310835126707375441, guid: 8bef60b4eb1a045e0837c0c2bf6a4aae, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310835127012028496, guid: 8bef60b4eb1a045e0837c0c2bf6a4aae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890804977165758923, guid: 8bef60b4eb1a045e0837c0c2bf6a4aae, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bef60b4eb1a045e0837c0c2bf6a4aae, type: 3}
+--- !u!1 &661474104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1310835126707375441, guid: 8bef60b4eb1a045e0837c0c2bf6a4aae, type: 3}
+  m_PrefabInstance: {fileID: 633461643}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &733494633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1893,7 +1906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_TagString

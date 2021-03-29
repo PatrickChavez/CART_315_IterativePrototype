@@ -8,7 +8,7 @@ public class SceneChangeCollide : MonoBehaviour
     public string chosenScene;
     //public GameObject player;
     public string scenetag;
-    public Vector3 playerPosition = new Vector3(195f, 103f, 341f);
+    //public Vector3 playerPosition = new Vector3(195f, 103f, 341f);
 
     private void OnCollisionEnter(Collision collision)
     {
