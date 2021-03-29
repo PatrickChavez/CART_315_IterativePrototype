@@ -9,13 +9,15 @@ public class CollideResetTag : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-            Debug.Log("Reset!");
+           
             if (collision.collider.gameObject.CompareTag(collidetag))
             {
                 Debug.Log("Reset!");
-                // Code from JeanLuc
-                // get the current scene name 
-                string sceneName = SceneManager.GetActiveScene().name;
+            collision.collider.gameObject.transform.position = new Vector3(195f, 103f, 341f);
+
+            // Code from JeanLuc
+            // get the current scene name 
+            string sceneName = SceneManager.GetActiveScene().name;
 
                 // load the same scene
                 SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
