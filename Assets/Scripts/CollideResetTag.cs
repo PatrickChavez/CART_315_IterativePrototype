@@ -13,7 +13,6 @@ public class CollideResetTag : MonoBehaviour
             if (collision.collider.gameObject.CompareTag(collidetag))
             {
                 Debug.Log("Reset!");
-            collision.collider.gameObject.transform.position = new Vector3(195f, 103f, 341f);
 
             // Code from JeanLuc
             // get the current scene name 

@@ -10,23 +10,12 @@ public class SceneChangeCollide : MonoBehaviour
     public string scenetag;
     public Vector3 playerPosition = new Vector3(195f, 103f, 341f);
 
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    if (collision.collider.gameObject == player)
-    //    {
-    //        Debug.Log("Scene change!");
-    //        SceneManager.LoadScene(chosenScene);
-    //        player.transform.position = playerPosition;
-    //    }
-    //}
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.gameObject.CompareTag(scenetag))
         {
             Debug.Log("Scene change!");
             SceneManager.LoadScene(chosenScene);
-            collision.collider.gameObject.transform.position = new Vector3(195f, 103f, 341f);
         }
     }
 

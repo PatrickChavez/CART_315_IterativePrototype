@@ -24,16 +24,12 @@ public class GoalPickup : MonoBehaviour
 
             if (score == 4)
             {
-                SceneManager.LoadScene("Crater");
+                SceneManager.LoadScene("Ambush");
                 this.transform.position = new Vector3(195f, 103f, 341f);
             }
         }
     }
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
 
     // Start is called before the first frame update
     void Start()
