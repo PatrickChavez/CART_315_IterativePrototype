@@ -1,0 +1,28 @@
+﻿Credits
+*********************************
+
+
+Code
+*********************************
+Load Current Scene Script from JeanLuc
+Enemy AI script from THSS Tech
+Referencing another script tutorial from antiquote
+Display variable in text tutorial from WallaceT_MFM
+Audio code from Statement and levelzerozilch 
+Minimap tutorial from Piotr Korzuszek
+
+
+Assets
+*********************************
+Classic Skybox from mgsvevo
+Foliage Pack Free from Jake Sullivan
+Standard Assets (for Unity 2018.4) from Unity Technologies Inc.
+
+
+
+
+Audio and SFX
+*********************************
+Amacha Music Studio
+Maou Damashii
+TAM Music Factory

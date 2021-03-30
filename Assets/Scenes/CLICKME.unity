@@ -909,7 +909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2266878294513271722, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.1
+      value: 3.99
       objectReference: {fileID: 0}
     - target: {fileID: 2266878294513271722, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -936,7 +936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6675144402498090202, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_text
-      value: GOAL
+      value: GOALS
       objectReference: {fileID: 0}
     - target: {fileID: 7736460251536928073, guid: 4fefbd314d95c4364ade6adedd4f3b08, type: 3}
       propertyPath: m_RootOrder
